@@ -10,7 +10,7 @@ The plot of (loss/validation-loss/accuracy/validation-accuracy) versus 100 epoch
 
 
 ## model_train
-Folder "model_train" includes the example training photos, the segmentation images, the background removed images, the labeled images, and R code that used to crop/label training data and train our SS-CNN model.
+Folder *"model_train"* includes the example training photos, the segmentation images, the background removed images, the labeled images, and R code that used to crop/label training data and train our SS-CNN model.
 
 * **model_train/PlantMod2.hdf5** The trained KAT4IA model for field photo segmentation.
 * **model_train/img**: field photos used for training.
@@ -18,7 +18,8 @@ Folder "model_train" includes the example training photos, the segmentation imag
 * **model_train/background_removed**: background-removed field photos used for training.
 * **model_train/label**: the labeled segmented field images used for training (red and blue represent foreground- and background-plant pixels).
 * **model_train/segmentation_KAT4IA.R**: run this .R files to segment the example training photos in *"model_train/img"*, it returns segmented field images in *"model_train/seg"*.
-
+* **model_train/plant_cropping_labeling.R**: run this .R files to prepare training data by labeling foreground- and background-plant pixels, sampling 2000 pixels from each photo, and creating 33x33x3 cropped mini-images for each pixels.
+* **model_train/train_cnn_model.R**: run this .R files to train our proposed SS-CNN model.
 
 ## segmentation
 Folder "segmentation" includes the field photos captured by one of our cameras, the segmented photos, and R code that used to segment the images.
