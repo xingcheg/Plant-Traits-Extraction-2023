@@ -17,8 +17,8 @@ Folder "model_train" includes the example training photos, the segmentation imag
 * **model_train/seg**: segmented field images for training.
 * **model_train/background_removed**: background-removed field photos used for training.
 * **model_train/label**: the labeled segmented field images used for training (red and blue represent foreground- and background-plant pixels).
-* **model_train/segmentation_KAT4IA.R**: run this .R files to segment the example training photos in.
-* **model_train/train_seg_model.R**: run this .R files to train our segmentation model **model_train/img**, it returns segmented field images in **model_train/seg**.
+* **model_train/segmentation_KAT4IA.R**: run this .R files to segment the example training photos in **model_train/img**, it returns segmented field images in **model_train/seg**.
+
 
 ## segmentation
 Folder "segmentation" includes the field photos captured by one of our cameras, the segmented photos, and R code that used to segment the images.
