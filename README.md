@@ -3,14 +3,14 @@
 R code and associated files/data for the analysis from the paper "High-Throughput Phenotyping: A Self-Supervised Sequential CNN Method to Segment Overlapping Plants". by Xingche Guo, Yumou Qiu, Dan Nettleton, and Patrick S. Schnable.
 
 ## SS_CNN.hdf5
-The self-supervised sequential CNN model that trained by the example training data in **model_train/img** for early and late stage plant pixels classification.
+The self-supervised sequential CNN (SS-CNN) model that trained by the example training data in **model_train/img** for early and late stage plant pixels classification.
 
 ## cnn_training_history.png
 The plot of loss/validation-loss/accuracy/validation-accuracy versus 100 epoch for training **SS_CNN.hdf5**.
 
 
 ## model_train
-Folder "model_train" includes the cropped plant and background images and R code that used to train our self-superviesd learning model for plant segmentation.
+Folder "model_train" includes the example training photos, the segmentation images, the background removed images, the labeled images, and R code that used to crop/label training data and train our SS-CNN model.
 
 * **model_train/data**: training images (both background and plant).
 * **model_train/background_labeling.R** and **model_train/plant_labeling.R**: run these two .R files to create plant and background features and labels for neural network training.
