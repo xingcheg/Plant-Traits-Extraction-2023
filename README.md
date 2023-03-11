@@ -6,15 +6,19 @@ R code and associated files/data for the analysis from the paper "High-Throughpu
 The self-supervised sequential CNN (SS-CNN) model that trained by the example training data in **model_train/img** for early and late stage plant pixels classification.
 
 ## cnn_training_history.png
-The plot of loss/validation-loss/accuracy/validation-accuracy versus 100 epoch for training **SS_CNN.hdf5**.
+The plot of (loss/validation-loss/accuracy/validation-accuracy) versus 100 epoch for training **SS_CNN.hdf5**.
 
 
 ## model_train
 Folder "model_train" includes the example training photos, the segmentation images, the background removed images, the labeled images, and R code that used to crop/label training data and train our SS-CNN model.
 
-* **model_train/data**: training images (both background and plant).
-* **model_train/background_labeling.R** and **model_train/plant_labeling.R**: run these two .R files to create plant and background features and labels for neural network training.
-* **model_train/train_seg_model.R**: run this .R files to train our segmentation model.
+* **model_train/PlantMod2.hdf5** The trained KAT4IA model for field photo segmentation.
+* **model_train/img**: field photos used for training.
+* **model_train/seg**: segmented field images for training.
+* **model_train/background_removed**: background-removed field photos used for training.
+* **model_train/label**: the labeled segmented field images used for training (red and blue represent foreground- and background-plant pixels).
+* **model_train/segmentation_KAT4IA.R**: run this .R files to segment the example training photos in.
+* **model_train/train_seg_model.R**: run this .R files to train our segmentation model **model_train/img**, it returns segmented field images in **model_train/seg**.
 
 ## segmentation
 Folder "segmentation" includes the field photos captured by one of our cameras, the segmented photos, and R code that used to segment the images.
