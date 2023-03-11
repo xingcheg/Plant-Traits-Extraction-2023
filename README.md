@@ -5,6 +5,10 @@ R code and associated files/data for the analysis from the paper "High-Throughpu
 ## SS_CNN.hdf5
 The self-supervised sequential CNN model that trained by the example training data in **model_train/img** for early and late stage plant pixels classification.
 
+## cnn_training_history.png
+The plot of loss/validation-loss/accuracy/validation-accuracy versus 100 epoch for training **SS_CNN.hdf5**.
+
+
 ## model_train
 Folder "model_train" includes the cropped plant and background images and R code that used to train our self-superviesd learning model for plant segmentation.
 
