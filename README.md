@@ -32,6 +32,8 @@ Folder *"plant_separation"* includes some example field photos captured by one o
 
 
 ## height_measurement
-Folder "height_measurement" includes the algorithm for height extraction and curve fitting, and one example growth curves fitting result.
+Folder "height_measurement" includes the algorithm for height extraction and curve fitting.
 
-* **height_measurement/height_measure.R**: run this .R file to extract plant heights from the segmented images and fit growth curves for the plants.
+* **height_measurement/early_height_measure.R**: run this .R file to extract early stage plant heights from the segmented images.
+* **height_measurement/late_height_measure.R**: run this .R file to extract late stage plant heights from the segmented images.
+* **height_measurement/growth_curve_est.R**: run this .R file to fit growth curves for all foreground plants that uses early and late stage plant heights as input.
