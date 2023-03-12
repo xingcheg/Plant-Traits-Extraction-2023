@@ -1,6 +1,5 @@
 # this .R file prepares CNN training data by cropping and labeling 
 # background-removed images
-setwd("/Users/apple/Desktop/SS-CNN")
 
 set.seed(213213)
 
