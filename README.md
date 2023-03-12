@@ -2,6 +2,10 @@
 
 R code and associated files/data for the analysis from the paper "High-Throughput Phenotyping: A Self-Supervised Sequential CNN Method to Segment Overlapping Plants". by Xingche Guo, Yumou Qiu, Dan Nettleton, and Patrick S. Schnable.
 
+## Note
+* Please install *python* and *tensorflow* in order to use API *keras* in *R*.
+
+
 ## SS_CNN.hdf5
 The self-supervised sequential CNN (SS-CNN) model that trained by the example training data in *"model_train/img"* for early and late stage plant pixels classification.
 
