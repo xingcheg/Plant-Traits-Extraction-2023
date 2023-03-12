@@ -1,7 +1,6 @@
 # this .R file provide foreground- and background-plant separation
 # in the late growth stage using the trained SS-CNN model, postprocessing 
 # by Super-pixel is also included
-setwd("/Users/apple/Desktop/SS-CNN")
 
 library(jpeg)
 library(EBImage)
