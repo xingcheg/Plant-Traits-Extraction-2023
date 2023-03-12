@@ -1,6 +1,5 @@
 # this .R use Keras to train our CNN model for 
 # foreground- and background-plant classification
-setwd("/Users/apple/Desktop/SS-CNN")
 
 library(keras)
 source("model_train/plant_cropping_labeling.R")
