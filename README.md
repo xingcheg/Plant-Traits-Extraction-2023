@@ -2,12 +2,12 @@
 
 R code and associated files/data for the analysis from the paper "High-Throughput Phenotyping: A Self-Supervised Sequential CNN Method to Segment Overlapping Plants". by Xingche Guo, Yumou Qiu, Dan Nettleton, and Patrick S. Schnable.
 
-## Before using
+# Before using
 * Please install *Python* and *Tensorflow* in order to use API *Keras* in *R*.
 * If you see error: <ins>AttributeError: 'Sequential' object has no attribute 'predict_proba',</ins> this is because 'predict_proba' is deprecated in the *Tensorflow* version 2.6+, please manually change function 'predict_proba' to 'predict'. 
 * In order to install R package 'EBImage', check https://bioconductor.org/packages/release/bioc/html/EBImage.html.
 
-
+# Overview
 ## SS_CNN.hdf5
 The self-supervised sequential CNN (SS-CNN) model that trained by the example training data in *"model_train/img"* for early and late stage plant pixels classification.
 
