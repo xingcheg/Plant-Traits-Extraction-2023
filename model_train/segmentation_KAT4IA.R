@@ -29,7 +29,7 @@ img.to.mat.nbhd<-function(img){
 
 ## segmentation prediction
 seg_pred <- function(nb, mlp, thres=0.5, dim_img){
-  test.prob<-mlp %>% predict_proba(nb)
+  test.prob<-mlp %>% predict(nb)
   pts.nn.nb<-rep(0,times=length(test.prob))
   pts.nn.nb[test.prob>=thres]<-1
   
