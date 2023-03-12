@@ -1,5 +1,4 @@
 # this .R file applied the KAT4IA method to segment field photos
-setwd("/Users/apple/Desktop/SS-CNN")
 
 library(EBImage)
 library(png)
