@@ -4,7 +4,7 @@ R code and associated files/data for the analysis from the paper "High-Throughpu
 
 ## Before using
 * Please install *python* and *tensorflow* in order to use API *keras* in *R*.
-* If you see error: AttributeError: 'Sequential' object has no attribute 'predict_proba, this is because you are using the *tensorflow* version 2.6+, please manually change function 'predict_proba' to 'predict'.
+* If you see error: AttributeError: 'Sequential' object has no attribute 'predict_proba, this is because you are using the *tensorflow* version 2.6+, please manually change function 'predict_proba' to 'predict'. <span style="color:blue">some *blue* text</span>
 * In order to install R package 'EBImage', check https://bioconductor.org/packages/release/bioc/html/EBImage.html.
 
 
