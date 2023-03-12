@@ -1,6 +1,5 @@
 # this .R file prepares CNN training data by cropping and labeling 
 # background-removed images
-setwd("/Users/apple/Desktop/SS-CNN")
 
 library(ggplot2)
 source("height_measurement/early_height_measure.R")
