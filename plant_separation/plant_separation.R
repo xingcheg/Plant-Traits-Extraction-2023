@@ -74,7 +74,7 @@ testing_label_jpg <- function(img, seg, l1, l2, mlp, cut, thres){
         Z <- Z[idx]
       }
   
-      Y_test0 <- mlp %>% predict_classes(X_test)
+       Y_test0 <- mlp %>% predict(X_test) %>% k_argmax()
       Y_test0 <- Y_test0 * Z
       Y_test <- rep(ifelse(mean(Y_test0)>(1-thres), 1, 0), nn)
       plant_ind1 <- rbind(plant_ind1, plant_slice_ind)
