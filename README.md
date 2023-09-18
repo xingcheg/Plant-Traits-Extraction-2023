@@ -1,6 +1,6 @@
 # Plant-Traits-Extraction-2023
 
-R code and associated files/data for the analysis from the paper "High-Throughput Phenotyping: A Self-Supervised Sequential CNN Method to Segment Overlapping Plants". by Xingche Guo, Yumou Qiu, Dan Nettleton, and Patrick S. Schnable.
+R code and associated files/data for the analysis from the paper "High-Throughput Phenotyping: A Self-Supervised Sequential CNN Method to Segment Overlapping Plants". by Xingche Guo, Yumou Qiu, Dan Nettleton, and Patrick S. Schnable. Check https://spj.science.org/doi/full/10.34133/plantphenomics.0052.
 
 ## Before using
 * Please install *Python* and *Tensorflow* in order to use API *Keras* in *R*.
